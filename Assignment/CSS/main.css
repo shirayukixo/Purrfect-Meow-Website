@@ -4,7 +4,7 @@ body {
     background-color: #F7F7F7;    
 }
 
-/* Line 9 to Line 35 are all for header */
+/* Line 9 to Line 28 are all for header */
 
 header {
     max-width: 80%;
@@ -27,12 +27,16 @@ ul li {
     float: left;
 }
 
+/* Line 32 to Line 37 are all for notice */
+
 .notice {
     text-align: center;
     font-size: large;
     padding: 1%;
     background-color: #faf565;
 }
+
+/* Line 41 to Line 73 are all for short product details */
 
 .flex-container {
     display: flex;
@@ -67,3 +71,116 @@ ul li {
     background-color: #faf565;
     text-align: center;
 }
+
+/* Line 77 to Line 140 are all for review */
+
+.slideshow-container {
+    margin-top: 5%;
+    position: relative;
+    background: #faf565;
+}
+
+.mySlides {
+    display: none;
+    padding: 80px;
+    text-align: center;
+}
+
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -30px;
+    padding: 16px;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+.next {
+    position: absolute;
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+    color: white;
+}
+
+.dot-container {
+    text-align: center;
+    padding: 20px;
+    background: #ddd;
+}
+
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+    background-color: #717171;
+}
+
+q {
+    font-style: italic;
+}
+
+.author {
+    color: cornflowerblue;
+}
+
+/* Line 144 to Line 185 are all for footer */
+
+.footer {
+    float: left;
+    width: 25%;
+}
+
+.footer-container::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+    background: #faf565;
+    color: grey;
+    margin: 1%;
+}
+
+.fa-twitter {
+    background: #faf565;
+    color: grey;
+    margin: 1%;
+}
+
+.fa-instagram {
+    background: #faf565;
+    color: grey;
+  }
+  
