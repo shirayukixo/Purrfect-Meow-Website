@@ -182,5 +182,26 @@ q {
 .fa-instagram {
     background: #faf565;
     color: grey;
+}
+
+.box {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    height: 300px;
+}
+
+.box1::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+@media screen and (max-width: 600px) {
+    .box {
+      width: 100%;
+    }
   }
+
+
   
