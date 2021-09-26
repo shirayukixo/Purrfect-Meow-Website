@@ -25,18 +25,45 @@
                 </ul>
             </nav>        
         </header> 
-    <main>
+    <main>     
+        <div class="notice">
+            We are having promotion now!😻
+        </div>   
+        <div class="box1">
+            <div class="box">
+                <form action="./PHP/database.php" method="post">
+                <h1>Login</h1>
+                <label for="l_username">Username </label>
+                <input type="text" id="l_username" placeholder="Enter Username" name="username" required>
+                <br><br>
+                <label for="l_password">Password </label>
+                <input type="password" id="l_password" placeholder="Enter Password" name="password" required>
+                <br><br>
+                <button type="submit">Log In</button>
+                &nbsp
+                <input type="checkbox" value="yesRememberMe" id="rememberMe"><label for="rememberMe">Remember Me?</label>                
+                </form>
+                <script src=./JavaScript/rememberMe.js></script>                
+            </div>            
+            <div class="box">
+                <form action="./PHP/database.php" method="post">
+                <h1>Register</h1>
+                <label for="r_username">Username&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</label>
+                <input type="text" id="r_username" placeholder="Enter Username" name="username" required>
+                <br><br>
+                <label for="r_email">Email Address&nbsp</label>
+                <input type="email" id="r_email" placeholder="Enter Email Address" name="email" required>
+                <br><br>
+                <label for="r_password">Password&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</label>
+                <input type="password" id="r_password" placeholder="Enter Password" name="password" required>
+                <br><br>
+                <button type="submit">Register</button> 
+                </form>
+            </div>
+        </div>  
         <div class="notice">
             We are having promotion now!😻
         </div>
-        <div class="box1">
-            <div class="box">
-                
-            </div>
-            <div class="box">
-
-            </div>
-        </div>  
     </main> 
     <footer>
         <div class="footer-container">
