@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Purrfect Meow</title>
-    <link type="text/css" rel="stylesheet" href="./CSS/main.css">
+    <link type="text/css" rel="stylesheet" href="./CSS/loginRegister.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
@@ -29,8 +29,8 @@
         <div class="notice">
             We are having promotion now!😻
         </div>   
-        <div class="box1">
-            <div class="box">
+        <div class="box">
+            <div class="box1">
                 <form action="./PHP/database.php" method="post">
                 <h1>Login</h1>
                 <label for="l_username">Username </label>
@@ -43,12 +43,12 @@
                 &nbsp
                 <input type="checkbox" value="yesRememberMe" id="rememberMe"><label for="rememberMe">Remember Me?</label>                
                 </form>
-                <script src=./JavaScript/rememberMe.js></script>                
+                <script src=./JavaScript/loginRegister.js></script>                
             </div>    
             <div class="verticalline">
                 
             </div>        
-            <div class="box">
+            <div class="box1">
                 <form action="./PHP/database.php" method="post">
                 <h1>Register</h1>
                 <label for="r_username">Username&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</label>

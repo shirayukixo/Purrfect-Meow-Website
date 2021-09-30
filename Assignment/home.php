@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Purrfect Meow</title>
-    <link type="text/css" rel="stylesheet" href="./CSS/main.css">
+    <link type="text/css" rel="stylesheet" href="./CSS/home.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
@@ -74,7 +74,7 @@
             <span class="dot" onclick="currentSlide(2)"></span>
             <span class="dot" onclick="currentSlide(3)"></span>
         </div>
-        <script src=./JavaScript/slideshow.js></script>
+        <script src=./JavaScript/home.js></script>
 
     </main> 
     <footer>

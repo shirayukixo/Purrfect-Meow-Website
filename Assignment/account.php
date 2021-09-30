@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Purrfect Meow</title>
-    <link type="text/css" rel="stylesheet" href="./CSS/main.css">
+    <link type="text/css" rel="stylesheet" href="./CSS/account.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
@@ -29,42 +29,42 @@
         <div class="notice">
             We are having promotion now!😻
         </div>  
-        <div class="accountbox">
-            <div class="accountbox1">
+        <div class="box">
+            <div class="box1">
                 <h1>Dashboard</h1>
                 <hr>
-                <div id="Div1" style="display:none">
+                <div id="orders" style="display:none">
                    check orders here pls 
                 </div>
-                <div id="Div2" style="display:none">
+                <div id="points" style="display:none">
                    check points here pls 
                 </div>
-                <div id="Div3" style="display:none">
+                <div id="addresses" style="display:none">
                    check address here pls
                 </div>
-                <div id="Div4" style="display:none">
+                <div id="paymentMethods" style="display:none">
                    check payment methods here pls 
                 </div>
-                <div id="Div5" style="display:none">
+                <div id="accountDetails" style="display:none">
                    check account details here pls
                 </div>
             </div>
-            <div class="verticallineacc">
+            <div class="verticalLine">
                 
             </div>
-            <div class="accountbox2">
-                <ol class="in-box">
-                    <li onclick="divVisibility('Div1');">Orders</li>
-                    <li onclick="divVisibility('Div2');">Points</li>
-                    <li onclick="divVisibility('Div3');">Addresses</li>
-                    <li onclick="divVisibility('Div4');">Payment Methods</li>
-                    <li onclick="divVisibility('Div5');">Account Details</li>
+            <div class="box2">
+                <ol class="inBox2">
+                    <li onclick="myAccountIDVisibility('orders');">Orders</li>
+                    <li onclick="myAccountIDVisibility('points');">Points</li>
+                    <li onclick="myAccountIDVisibility('addresses');">Addresses</li>
+                    <li onclick="myAccountIDVisibility('paymentMethods');">Payment Methods</li>
+                    <li onclick="myAccountIDVisibility('accountDetails');">Account Details</li>
                     <li>Logout</li>
                 </ul>
             </div>            
         </div>
     </main> 
-    <script src=./JavaScript/showHide.js></script>
+    <script src=./JavaScript/account.js></script>
     <footer>
         <div class="notice">
             We are having promotion now!😻
