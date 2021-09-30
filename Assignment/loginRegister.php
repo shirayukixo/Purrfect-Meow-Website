@@ -15,10 +15,10 @@
             </div>
             <nav>
                 <ul>
-                    <li>Home</li>
-                    <li>Products</li>
+                    <li><a href="home.php">Home</a></li>
+                    <li><a href="product.php">Products</a></li>
                     <li>Cart</li>
-                    <li>My Account</li>
+                    <li><a href="account.php">My Account</a></li>
                     <li>FAQ</li>
                     <li>About Us</li>
                     <li>Contact Us</li>
@@ -44,7 +44,10 @@
                 <input type="checkbox" value="yesRememberMe" id="rememberMe"><label for="rememberMe">Remember Me?</label>                
                 </form>
                 <script src=./JavaScript/rememberMe.js></script>                
-            </div>            
+            </div>    
+            <div class="verticalline">
+                
+            </div>        
             <div class="box">
                 <form action="./PHP/database.php" method="post">
                 <h1>Register</h1>

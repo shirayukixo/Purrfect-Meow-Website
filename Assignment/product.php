@@ -28,43 +28,8 @@
     <main>
         <div class="notice">
             We are having promotion now!😻
-        </div>  
-        <div class="accountbox">
-            <div class="accountbox1">
-                <h1>Dashboard</h1>
-                <hr>
-                <div id="Div1" style="display:none">
-                   check orders here pls 
-                </div>
-                <div id="Div2" style="display:none">
-                   check points here pls 
-                </div>
-                <div id="Div3" style="display:none">
-                   check address here pls
-                </div>
-                <div id="Div4" style="display:none">
-                   check payment methods here pls 
-                </div>
-                <div id="Div5" style="display:none">
-                   check account details here pls
-                </div>
-            </div>
-            <div class="verticallineacc">
-                
-            </div>
-            <div class="accountbox2">
-                <ol class="in-box">
-                    <li onclick="divVisibility('Div1');">Orders</li>
-                    <li onclick="divVisibility('Div2');">Points</li>
-                    <li onclick="divVisibility('Div3');">Addresses</li>
-                    <li onclick="divVisibility('Div4');">Payment Methods</li>
-                    <li onclick="divVisibility('Div5');">Account Details</li>
-                    <li>Logout</li>
-                </ul>
-            </div>            
-        </div>
-    </main> 
-    <script src=./JavaScript/showHide.js></script>
+        </div>          
+    </main>     
     <footer>
         <div class="notice">
             We are having promotion now!😻
