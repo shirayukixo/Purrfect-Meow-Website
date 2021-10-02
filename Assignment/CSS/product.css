@@ -80,3 +80,26 @@ ul li {
     color: grey;
 }
 
+/* Line 83 to Line 81 are all for footer */
+
+.box {
+    display: flex;    
+    margin-top: 3%;
+    
+    
+}
+
+.box1 {
+    float: left;   
+    margin-left: 25%;
+}
+
+.box2 {    
+    float: right;   
+    margin-right: 5%; 
+    margin-left: 15%;
+    border: 3px solid lightgrey;
+    padding: 3%;
+    
+    
+}

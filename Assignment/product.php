@@ -28,7 +28,40 @@
     <main>
         <div class="notice">
             We are having promotion now!😻
-        </div>          
+        </div>   
+        <div class="box">
+            <div class="box1">
+                <img src="./Images/catFood.jpeg" alt="cat food" width="70%">
+            </div>
+            <div class="box2">
+
+                <h1>Product Details</h1>
+                <br>
+                <form action="./PHP/database.php" method="post">
+                    <label for="foodType">Product:</label> 
+                    <select name="foodType" id="foodType">
+                        <option value="chicken">Chicken</option>
+                        <option value="fish">Fish</option>
+                        <option value="chickenStrips">Chicken Strips</option>
+                        <option value="miniAnchovies">Mini Anchovies</option>
+                    </select>
+                    <br><br>
+                    <label for="foodWeight">Options:</label> 
+                    <select name="foodWeight" id="foodWeight">
+                        <option value="500g">500g</option>
+                        <option value="1kg">1kg</option>
+                        <option value="1.5kg">1.5kg</option>
+                        <option value="2kg">2kg</option>
+                    </select>
+                    <br><br>
+                    <label for="quantity">Quantity:</label>
+                    <input type="number" name="quantity" name="quantity" min="1" max="99" value="1"> 
+                    <br><br>
+                    <button type="submit">Add to Cart</button>
+                </form>
+            </div>
+        </div> 
+        <br><br>      
     </main>     
     <footer>
         <div class="notice">
