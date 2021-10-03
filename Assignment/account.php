@@ -17,7 +17,7 @@
                 <ul>
                     <li><a href="home.php">Home</a></li>
                     <li><a href="product.php">Products</a></li>
-                    <li>Cart</li>
+                    <li><a href="cart.php">Cart</a></li>
                     <li><a href="account.php">My Account</a></li>
                     <li>FAQ</li>
                     <li>About Us</li>

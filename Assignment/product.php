@@ -17,7 +17,7 @@
                 <ul>
                     <li><a href="home.php">Home</a></li>
                     <li><a href="product.php">Products</a></li>
-                    <li>Cart</li>
+                    <li><a href="cart.php">Cart</a></li>
                     <li><a href="account.php">My Account</a></li>
                     <li>FAQ</li>
                     <li>About Us</li>
@@ -61,7 +61,71 @@
                 </form>
             </div>
         </div> 
-        <br><br>      
+        <br><br>  
+        <div class="container">
+            <div class="container1">
+                <form action="database.php" method="post" id="reviewForm">
+                    <label for="review"><h1>Review:</h1></label>
+                    <br>
+                    <textarea rows="10" cols="50" name="review" form="reviewForm"></textarea>
+                    <br><br>
+                    <button type="submit">Submit</button>
+
+                </form>
+            </div>  
+            <div class="container2">
+                <h1>Customers Rating</h1>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <hr>
+                <div class="row">
+                    <div class="side">
+                        <div>5 star</div>
+                    </div>
+                    <div class="middle">
+                        <div class="bar-container">
+                        <div class="bar-5"></div>
+                        </div>
+                    </div>
+                    <div class="side">
+                        <div>4 star</div>
+                    </div>
+                    <div class="middle">
+                        <div class="bar-container">
+                        <div class="bar-4"></div>
+                        </div>
+                    </div>
+                    <div class="side">
+                        <div>3 star</div>
+                    </div>
+                    <div class="middle">
+                        <div class="bar-container">
+                        <div class="bar-3"></div>
+                        </div>
+                    </div>
+                    <div class="side">
+                        <div>2 star</div>
+                    </div>
+                    <div class="middle">
+                        <div class="bar-container">
+                        <div class="bar-2"></div>
+                        </div>
+                    </div>
+                    <div class="side">
+                        <div>1 star</div>
+                    </div>
+                    <div class="middle">
+                        <div class="bar-container">
+                        <div class="bar-1"></div>
+                        </div>
+                    </div>
+                </div>                
+            </div>                      
+        </div>   
+        <br><br>   
     </main>     
     <footer>
         <div class="notice">
